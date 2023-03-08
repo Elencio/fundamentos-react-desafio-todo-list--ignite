@@ -1,0 +1,48 @@
+.Tasks {
+  margin-top: 6rem;
+}
+
+.statetask {
+  display: flex;
+  justify-content: space-between;
+}
+
+.created , .completed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+ 
+}
+
+.Tasks .created strong{
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.created strong {
+  color: var(--Blue);
+}
+
+ .created span {
+  border-radius: 30%;
+  padding: 0 0.75rem;;
+  background: var(--gray-500);
+}
+
+.completed strong, span {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.completed strong {
+  color: var(--purple);
+}
+
+.completed span {
+  border-radius: 30%;
+  padding: 0 0.75rem;
+  background: var(--gray-500);
+}
+

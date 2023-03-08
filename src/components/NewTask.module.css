@@ -1,0 +1,29 @@
+.newtask {
+  margin-top: -1.75rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+.newtask input {
+  width: 87%;
+  padding-top: 1.5rem; 
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.asidebutton {
+  padding_top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: var(--BlueDark);
+  border-radius: 8px;
+  color: var(--white);
+}
+ 
+
+   

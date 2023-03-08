@@ -1,0 +1,30 @@
+.header {
+   background: var(--gray-700);
+   display: flex;
+   justify-content: center;
+   padding: 4rem 0;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.LogoInfo span, .LogoInfo strong {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.6;
+}
+
+.container span {
+  color: var(--Blue);
+}
+
+.container strong {
+ color: var(--purpleDark);
+}
+
+.container img {
+height: 1.75rem;
+}
+
