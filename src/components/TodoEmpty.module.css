@@ -1,0 +1,33 @@
+.bodytasks {
+  border-top: 1px solid var(--gray-500);
+  margin-top: 2rem;
+  padding: 4rem 0;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.text strong {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 700;
+  color: var(--gray-300);
+}
+
+.text span {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--gray-400);
+  line-height: 1.6;
+}
+

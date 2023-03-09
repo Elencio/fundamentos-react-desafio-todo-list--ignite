@@ -1,7 +1,10 @@
+
 import styles from './Tasks.module.css';
 
-export function Tasks(){
+
+export function TasksAdd(){
   return(
+   <div>
     <div className={styles.Tasks}>
         <div className={styles.statetask}>
            <div className={styles.created}>
@@ -12,7 +15,8 @@ export function Tasks(){
               <strong>Concluidas</strong>
               <span>0</span>
            </div>
-        </div>
+        </div>   
+    </div>
     </div>
   )
 }
