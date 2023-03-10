@@ -10,16 +10,25 @@
 }
 
 .task input{
-  padding: 2rem;
-  background: var(--gray-500);
-  border: 1px solid var(--Blue);
+  width: 1rem;
+  background: transparent !important;
 }
 
-.task input[type="checkbox"]:checked + label {
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 50%;
-  border: 1px solid var(--Blue);
-  background: var(--gray-500);
+
+
+.task button {
+  background: transparent;
+  color: var(--Blue);
+  border: 0;
 }
+
+.checkbox {
+  display: flex;
+  gap: 1rem;
+}
+
+.isChecked {
+  text-decoration: 2px line-through var(--purple);
+}
+
 

@@ -13,6 +13,9 @@
   border-radius: 8px;
   padding: 1rem;
   color: var(--gray-100);
+  resize: none;
+  line-height: 1.4;
+  border: 0;
 }
 
 .asidebutton {
@@ -20,11 +23,20 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  border: 0;
   padding: 0.5rem;
   background: var(--BlueDark);
   border-radius: 8px;
   color: var(--white);
+  transition: background 0.2s;
+  cursor: pointer;
 }
+
+.asidebutton:hover {
+  background: var(--Blue);
+}
+
+
  
 
    

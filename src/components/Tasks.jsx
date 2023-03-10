@@ -2,20 +2,23 @@
 import styles from './Tasks.module.css';
 
 
-export function TasksAdd(){
+export function TasksAdd({numNumberOfTasks, completedTaskCount, onWithoutAnyTask}){
   return(
    <div>
     <div className={styles.Tasks}>
         <div className={styles.statetask}>
            <div className={styles.created}>
               <strong>Tarefas Criadas</strong>
-              <span>0</span>
+              <span>{ numNumberOfTasks}</span>
            </div>
            <div className={styles.completed}>
               <strong>Concluidas</strong>
-              <span>0</span>
+              <span>{completedTaskCount} de {numNumberOfTasks}</span>
            </div>
-        </div>   
+        </div> 
+        <div>
+        {onWithoutAnyTask()}
+        </div>  
     </div>
     </div>
   )
